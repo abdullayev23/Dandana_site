@@ -1,0 +1,148 @@
+.sc-flex button{
+    padding: 5px 10px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #393939;
+    background: #FFBC0D;
+    border: none;
+    border-radius: 15px;
+}
+.sc2-box{
+    margin-top: 30px;
+}
+.order-sc{
+    margin-top: 70px;
+}
+
+.order-div{
+    display: flex;
+    align-items: center;
+    padding-right: 25px;
+    margin: 20px 0;
+    justify-content: space-between;
+}
+.order-div h2{
+    display: flex;
+    align-items: center;
+}
+.order-div h2 img{
+    margin-right: 10px;
+}
+.plus-minus{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.order-div h6{
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 33px;
+    color: #4F4F4F;
+}
+
+.variable{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.01em;
+    color: #000000;
+}
+.plus-minus{
+    margin: 0px 20px;
+}
+.plus-minus img{
+    cursor: pointer;
+}
+
+.line{
+    width: 99%;
+    margin: 20px auto;
+    height: 5px;
+    background: #F8B602;
+}
+
+.footer{
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.xizmat, .umumiy{
+    display: flex;
+    margin: 20px 0;
+    align-items: center;
+    gap: 150px;
+}
+.footer h6{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    color: #A098AE;
+}
+.footer h5{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    color: #2E2E2E;
+}
+
+.narx_dinamic{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    color: #030000;
+}
+
+.footer button{
+    font-size: 18px;
+    padding: 12px 60px;
+    border-radius: 15px;
+    font-weight: 500;
+    cursor: pointer;
+    line-height: 27px;
+    background: #F8B602;
+    color: #fff;
+    border: none;
+}
+
+@media(max-width:950px) {
+    .order-sc{
+        margin-top: 40px;
+    }
+    .sc2-box{
+        margin-top: 40px;
+    }
+}
+@media(max-width:670px) {
+    .order-div{
+        flex-wrap: wrap;
+    }
+    .order-div h2{
+        max-width: 400px;
+    }
+}
+@media(max-width:600px) {
+    .sc2-box{
+        margin-top: 25px;
+    }
+    .order-sc{
+        margin-top: 35px;
+    }
+    .order-div h2{
+        max-width: 350px;
+        font-size: 18px;
+        line-height: 28px;
+    }
+}
+@media(max-width:570px) {
+    .footer{
+        margin-top: 40px;
+        display: block;
+    }
+    .xizmat, .umumiy{
+        margin: 15px 0;
+        gap: 50px;
+    }
+}
